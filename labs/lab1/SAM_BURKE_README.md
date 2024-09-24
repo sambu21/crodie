@@ -9,7 +9,7 @@
 
 If what is being submitted is an individual Lab or Assignment, you may simply include your name and email address. Otherwise list the members of your group.
 
-* [Name](sm711025@dal.ca) - (author)
+* [sam burke](sm711025@dal.ca) - (author)
 
 
 
@@ -21,8 +21,11 @@ If what is being submitted is an individual Lab or Assignment, you may simply in
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* https://developer.mozilla.org/en-US/docs/Web/HTML
 * Inspiration
 * etc
