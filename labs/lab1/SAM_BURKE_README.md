@@ -1,8 +1,8 @@
-# lab1
+# lab2
 
-* *Date Created*: 11 9 2024
-* *Last Modification Date*: 12 9 2024
-* *Lab URL*: <https://git.cs.dal.ca/burke1/3172>
+* *Date Created*: 24 9 2024
+* *Last Modification Date*: 24 9 2024
+* *Lab URL*: <https://web.cs.dal.ca/~burke1/csci3172/lab2/>
 
 
 ## Authors
