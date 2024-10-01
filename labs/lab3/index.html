@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container" id="colorContainer">
+        <label for="days">Select a day:</label>
+        <select id="days" onchange="changeBackCol()">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+    </div>
+
+    <form id="numberForm" onsubmit="checknum(event)">
+        <input type="number" id="numberInput" placeholder="Enter a num">
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
