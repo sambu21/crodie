@@ -1,8 +1,11 @@
-# lab2
+# activivty 7
 
-* *Date Created*: 24 9 2024
-* *Last Modification Date*: 24 9 2024
+* *Date Created*: 26 9 2024
+* *Last Modification Date*: 26 9 2024
 * *Lab URL*: <https://web.cs.dal.ca/~burke1/csci3172/lab2/>
+
+
+all my code is at the bottom of the example code
 
 
 ## Authors
