@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 4</title>
+    <meta name="description" content="Title of Site">
+    <meta name="author" content="Author Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <section id="description">
+            <h1>L9 - Activity</h1>
+            <p>write all ur shit there in them boxes</p>
+        </section>
+        <div class="content">
+            <form class="registration" id="register" onsubmit="return validate()">
+                <h3>Registration Form</h3>
+
+                <!-- First Naame -->
+                <label for="firstName">First Name</label>
+                <span class="format">* Letters only</span>
+                <br>
+                <input type="text" name="firstName" id="firstName" required>
+                <br>
+
+                <!-- Last Name -->
+                <label for="lastName">Last Name</label>
+                <span class="format">* Letters only</span>
+                <br>
+                <input type="text" name="lastName" id="lastName" required>
+                <br>
+
+                <!-- Email -->
+                <label for="email">Emmail</label>
+                <span class="format">* Must use email format</span>
+                <br>
+                <input type="email" name="email" id="email" required>
+                <br>
+
+                <!-- Gender -->
+                <label for="gender">Gender</label>
+                <br>
+                <input type="radio" name="gender" value="non-binary" id="non-binary"> Non-binary
+                <input type="radio" name="gender" value="female" id="female"> Female
+                <input type="radio" name="gender" value="male" id="male"> Male
+                <input type="radio" name="gender" value="prefer not to answer" id="prefer-not"> Prefer not to answer
+                <br>
+
+                <!-- Country -->
+                <label for="country">Country</label>
+                <br>
+                <select name="country" id="country">
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;Copyright sss</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
